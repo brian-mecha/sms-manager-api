@@ -16,6 +16,10 @@ Make sure you have [Postman](https://getpostman.com/) installed then click the b
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/14c9afe7be094173c1c0)
 
+### API Documentation
+The documentation of all the endpoints can be found [here](https://documenter.getpostman.com/view/1489197/SVYouKbV).
+
+
 ## Features
 - User should be able to regiser and login using email and password.
 - User should be able to get all contacts.
