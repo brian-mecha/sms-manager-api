@@ -16,6 +16,13 @@ Make sure you have [Postman](https://getpostman.com/) installed then click the b
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/14c9afe7be094173c1c0)
 
+## Features
+- User should be able to regiser and login using email and password.
+- User should be able to get all contacts.
+- User should be able to create a contact.
+- User should be able to delete a contact.
+- User should be able to send a message to any of the created contacts.
+- User should be able to retrieve all sent messages.
 
 ## License
 

@@ -5,4 +5,7 @@ module.exports = (router) => {
   router.route('/contacts')
     .post(validateToken, controller.add)
     .get(validateToken, controller.getAll);
+
+  router.route('/contacts/:id')
+    .delete(validateToken, controller.delete);
 };

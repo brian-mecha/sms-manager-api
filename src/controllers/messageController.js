@@ -124,7 +124,7 @@ module.exports = {
         const messageId = mongodb.ObjectID(req.params.id);
 
         if (payload) {
-          Message.deleteOne({ _id: messageId }, (error, message) => {
+          Message.findOneAndDelete({ _id: messageId }, (error, message) => {
             if (!error) {
               result.status = status;
               result.data = message;
@@ -136,8 +136,9 @@ module.exports = {
             res.status(status).send(result);
           });
         } else {
-          result.status = 401;
-          result.error = 'Authentication failed.';
+          status = 401;
+          result.status = status;
+          result.error = 'Authentication failed. Please try again.';
           res.status(status).send(result);
         }
       } else {
