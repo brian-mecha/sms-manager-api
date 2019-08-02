@@ -16,6 +16,9 @@ Make sure you have [Postman](https://getpostman.com/) installed then click the b
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/14c9afe7be094173c1c0)
 
+### Hosted Link
+The API is hosted: [here](https://sms-manger.herokuapp.com/api/v1).
+
 ### API Documentation
 The documentation of all the endpoints can be found [here](https://documenter.getpostman.com/view/1489197/SVYouKbV).
 
